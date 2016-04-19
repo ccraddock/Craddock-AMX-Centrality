@@ -80,7 +80,7 @@ lFCD was calculating using a region growing algorithm in which face-, side-, and
 Outputs from the newly developed tools were benchmarked to Python implementations of these measures from the Configurable Pipeline for the Analysis of Connectomes (C-PAC) \cite{Craddock2013c} using in the publically shared \href{http://fcon_1000.projects.nitrc.org/indi/CoRR/html/ibatrt.html}{Intrinsic Brain Activity Test-Retest (IBATRT) dataset} from the Consortium for Reliability and Reproduciblity\cite{Zuo2014}.
 
 #Results
-AFNI tools were developed for calculating lFCD and DC from functional neuroimaging data and have been submitted for inclusion into AFNI. LFCD and DC maps from the test dataset (illustrated in Fig. \ref{centfig}) are identical to those calculated using C-PAC (spatial concordance correlation \cite{lange1999} $\rho \geq 0.99$ ) but required substantially less time and memory (see Table \ref{stattable}).
+AFNI tools were developed for calculating lFCD and DC from functional neuroimaging data and have been submitted for inclusion into AFNI. LFCD and DC maps from the test dataset (illustrated in Fig. \ref{centfig}) are highly similar to those calculated using C-PAC (spatial concordance correlation \cite{lange1999} $\rho \geq 0.99$ ) but required substantially less time and memory (see Table \ref{stattable}).
 
 \begin{figure}[h!]
   \includegraphics[width=.47\textwidth]{centrality_plot}
